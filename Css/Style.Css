@@ -1,0 +1,59 @@
+html{
+    height: 100%;
+    text-align: center;
+    background-image: url("/Media/night-ocean-landscape-full-moon-stars-shine_107791-7397.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#MainPage{
+    background-image: url("/Media/Wie-mittelalterliche-Ritter-und-ihre-Pferde-als-Team-auf-dem-Schlachtfeld-kaempften_600x600.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+#userCard{
+    background-color: white;
+    background-image: none;
+    background-image: linear-gradient(rgb(0, 204, 255),rgb(10, 248, 30));
+}
+h1{
+    color: white;
+    size: 125%;
+}
+#Libutton{
+    background-color: black;
+    color: rgb(0, 0, 0);
+    border-radius: 100%;
+    padding: 10px;
+    font-size: large
+}
+a{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+p{
+    color: white;
+    text-shadow: 2px 2px black;
+}
+nav{
+    background-color: rgba(248, 247, 247, 0.178);
+    background-image: none;
+    color: rgb(255, 255, 255);
+    margin-left: 500px;
+    margin-right: 500px;
+}
+#centerCard{
+    margin: 300px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-image: linear-gradient(rgb(139,138,134), rgb(123,122,118) );
+    border: 20px;
+    border-style: line;
+    border-color: white;
+    border-radius: 60px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.068);
+}
