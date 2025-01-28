@@ -1,25 +1,13 @@
-html{
+html {
     height: 100%;
-    text-align: center;
-    background-image: url("/Media/night-ocean-landscape-full-moon-stars-shine_107791-7397.avif");
+    margin: 0px;
+    background-image: linear-gradient(to bottom, #57e9f396 5%,rgb(255, 255, 255) 95%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-#MainPage{
-    background-image: url("/Media/Wie-mittelalterliche-Ritter-und-ihre-Pferde-als-Team-auf-dem-Schlachtfeld-kaempften_600x600.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-}
-#userCard{
-    background-color: white;
-    background-image: none;
-    background-image: linear-gradient(rgb(0, 204, 255),rgb(10, 248, 30));
 }
 h1{
-    color: white;
+    color: rgb(0, 0, 0);
     size: 125%;
 }
 
@@ -30,30 +18,18 @@ h1{
     padding: 10px;
     font-size: large
 }
-a{
-    color: white;
-}
-a:visited{
-    color: white;
-}
-p{
-    color: white;
-    text-shadow: 2px 2px black;
-}
+
 nav{
-    background-color: rgba(17, 17, 17, 0.507);
+    background-color: #5feefa96(17, 17, 17, 0.507);
     background-image: none;
-    color: rgb(255, 255, 255);
-    margin-left: 500px;
-    margin-right: 500px;
+    margin: ;
+    color: rgb(0, 0, 0);
 }
 #centerCard{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 300px; 
-    margin-left: 500px;
-    margin-right: 500px;
     background-color: rgb(221, 200, 142);
     border: 20px;
     border-style: line;
