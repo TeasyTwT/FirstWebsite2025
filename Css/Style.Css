@@ -22,6 +22,7 @@ h1{
     color: white;
     size: 125%;
 }
+
 #Libutton{
     background-color: black;
     color: rgb(0, 0, 0);
@@ -40,20 +41,30 @@ p{
     text-shadow: 2px 2px black;
 }
 nav{
-    background-color: rgba(248, 247, 247, 0.178);
+    background-color: rgba(17, 17, 17, 0.507);
     background-image: none;
     color: rgb(255, 255, 255);
     margin-left: 500px;
     margin-right: 500px;
 }
 #centerCard{
-    margin: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 300px; 
     margin-left: 500px;
     margin-right: 500px;
-    background-image: linear-gradient(rgb(139,138,134), rgb(123,122,118) );
+    background-color: rgb(221, 200, 142);
     border: 20px;
     border-style: line;
     border-color: white;
     border-radius: 60px;
     box-shadow: 10px 10px rgba(0, 0, 0, 0.068);
+    height: 45%;
+}
+#faceCard{
+    height: 175px; 
+    width: 175px; 
+    border: 2px;
+    border-radius: 60%;
 }
